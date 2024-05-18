@@ -1,0 +1,124 @@
+:root {
+    --blanco: white;
+    --negro: black;
+    --fondo: #2F4F30;
+    --score: #6F7185;
+    --btn1: #4b52bd;
+    --btn1-hover: #5c67e3;
+    --btn2: #C84C4C;
+    --btn2-hover: #db6767;
+}
+html {
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+body {
+    font-size: 1.2rem;
+    background-color: var(--fondo);
+    color: var(--blanco);
+}
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+a {
+    text-decoration: none;
+}
+p {
+    line-height: 1.7;
+}
+h1 {
+    font-size: 2.8rem;
+}
+h2 {
+    font-size: 2.1rem;
+}
+h3 {
+    font-size: 1.4rem;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+button {
+    border: none;
+}
+[class*="heading"] {
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 1.4rem;
+    line-height: 1.2;
+    margin: 2.4rem 0;
+}
+[class*="contenedor"],
+.contenedor {
+    width: 95%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+[class$=contenedor-min] {
+    width: 95%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+[class*="seccion"] {
+    padding-top: 2.5rem;
+}
+.btn1 {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--btn1);
+    color: var(--white);
+    transition-duration: 300ms;
+    transition-property: background-color;
+}
+.btn1:hover {
+    background-color: var(--btn1-hover);
+}
+.btn2 {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--btn2);
+    color: var(--white);
+    transition-duration: 300ms;
+    transition-property: background-color;
+}
+.btn2:hover {
+    background-color: var(--btn2-hover);
+}
+
+.blackjack {
+    background-color: var(--negro);
+    padding: 1.2rem;
+}
+.blackjack__nombre {
+    text-align: center;
+    color: var(--blanco);
+}
+
+.participante__puntuacion {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.4rem;
+    border-radius: 0.5rem;
+    background-color: var(--score);
+}
+.participante__carta {
+    min-height: 20rem;
+    padding-top: 2rem;
+    max-width: calc(800px - 7rem);
+    width: calc(95% - 7rem);
+}
+.participante__carta-img {
+    width: 12rem;
+    position: relative;
+    left: 7rem;
+    margin-left: -7rem;
+}
+
+.footer {
+    margin-top: 2.5rem;
+}
