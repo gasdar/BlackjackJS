@@ -17,7 +17,7 @@
 
     <div class="seccion">
         <div class="contenedor-min">
-            <div class="d-flex flex-row justify-content-start">
+            <div class="d-flex flex-row justify-content-start" id="div-botones">
                 <button class="m-1 btn2" >Nuevo Juego</button>
                 <button class="m-1 btn1" >Pedir Carta</button>
                 <button class="m-1 btn1" >Detener</button>
@@ -31,26 +31,32 @@
             <div class="participante__puntuacion">Score: <span>0</span></div>
         </div>
         <div class="participante__carta d-flex flex-wrap">
-            <img class="participante__carta-img" src="./assets/cards/10H.png" alt="carta entrergada del juego">
+            <img class="participante__carta-img" src="./assets/cards/10H.png" alt="carta entregada del juego">
         </div>
     </div>
 
     <div class="participante seccion contenedor-min">
         <div class="d-flex align-items-center justify-content-between participante__info">
             <h2 class="participante__nombre">Computador</h2>
-            <div class="participante__puntuacion">Score: 0</div>
+            <div class="participante__puntuacion">Score: <span>0</span></div>
         </div>
-        <div class="participante__carta d-flex flex-wrap">
+        <div class="participante__carta d-flex flex-wrap" id="computadora-cartas">
             <img class="participante__carta-img" src="./assets/cards/3C.png" alt="carta entrergada del juego">
         </div>
     </div>
 
+    <!-- 54. Manipulación del DOM - Segunda Parte -->
+    <div class="seccion contenedor-min" id="prueba-dom">
+
+    </div>
+
     <footer class="blackjack footer">
         <div class="blackjack__contenedor">
-            <h1 class="blackjack__nombre" >Blackjack</h1>
+            <h3 class="blackjack__nombre footer__blanckjack" >Blackjack</h3>
         </div>
     </footer>
 
+    <script src="assets/js/underscore-min.js"></script>
     <script src="./assets/js/juego.js"></script>
 
 </body>
