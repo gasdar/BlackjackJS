@@ -12,7 +12,7 @@ Si desea hacer uso de esta aplicación siga los siguientes pasos.
 
 #### Consultas
 
-1. Si tienes alguna idea de mejora asegura de anotarla en Issue.
+1. Utiliza el apartado de Issues para comunicarte con algún tema referente al proyecto.
 2. El proyecto elaborado tiene como propósito principal enseñar y fue diseñado con cariño por Fernando Herrera.
 3. Cualquier tipo de aporte, idea, ayuda, otro, es totalmente considerado (me considero un aprendiz).
 
