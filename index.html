@@ -47,7 +47,6 @@
 
     <!-- 54. Manipulación del DOM - Segunda Parte -->
     <div class="seccion contenedor-min" id="prueba-dom">
-
     </div>
 
     <footer class="blackjack footer">
@@ -57,7 +56,19 @@
     </footer>
 
     <script src="assets/js/underscore-min.js"></script>
-    <script src="./assets/js/juego.js"></script>
+    <script src="./assets/js/juego-min.js"></script>
+    <script>
+
+        // Ejemplo de como enviar valores expecíficos, trabajando con módulos
+        // nuevaPartida(2);
+        console.log( miModulo );
+
+        // Áca ya podemos llamar a la función que pasamos en el retorno del modulo.
+        document.querySelector('#btn-nuevo').addEventListener('click', () => {
+            miModulo.nuevoGame(2);
+        });
+
+    </script>
 
 </body>
 </html>
