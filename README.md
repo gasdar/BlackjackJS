@@ -3,7 +3,7 @@
 Este proyecto se ha llevado a cabo en el curso de [JavaScript Udemi por el Instructor Fernando Herrera](https://www.udemy.com/course/javascript-fernando-herrera)  
 Si desea hacer uso de esta aplicación siga los siguientes pasos.
 
-#### Instrucciones
+#### Instrucciones de Instalación
 
 1. Buscar versión estable y en producción.
 2. Descargar versión y extraer proyecto en ordenador.
@@ -18,8 +18,8 @@ Si desea hacer uso de esta aplicación siga los siguientes pasos.
 
 #### Dependencias
 
-1. [Underscore.js](https://underscorejs.org/): Si bien utilizamos una única función específica de esta gran librería,  
-   es muy necesaria para el proyecto.
+1. [Underscore.js](https://underscorejs.org/): Si bien utilizamos una única función específica de esta gran librería, es muy necesaria para el  
+   proyecto.
 
 #### Agradecemientos
 
